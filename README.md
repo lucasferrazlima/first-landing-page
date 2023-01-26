@@ -4,7 +4,8 @@ The objective of this project is to create a landing page from scratch, applying
 
 
 
-Reference for images used 
+--------------------------------------------------------------------------------------------------------------------------------------
+Reference for images used: 
 
 Photo by fauxels from Pexels: https://www.pexels.com/photo/people-discuss-about-graphs-and-rates-3184292/
 
