@@ -33,7 +33,7 @@ body {
     width: 110px;
     border-radius: 5px;
     padding: 5px 15px 5px 15px;
-    background-color: #4da6ff;
+    background-color: #3882f6;
     color: white;
     font-weight: bold;
     margin-top: 15px;
@@ -134,3 +134,48 @@ figcaption {
     align-self: flex-end;
 }
 
+.banner {
+    background-color: #3882f6;
+    display: flex;
+    margin: 100px 200px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.banner-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.banner-subtext {
+    display: flex;
+    font-size: 24px;
+}
+
+.please {
+    font-size: 10px;
+    align-self: flex-end;
+    padding-left: 10px;
+}
+
+.banner-button {
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0px 15px 0px 15px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
+    border: solid white;
+    justify-self: center;
+    align-self: center;
+}
