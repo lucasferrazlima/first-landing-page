@@ -1,6 +1,8 @@
 body {
     font-family:  "roboto";
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -8,6 +10,7 @@ body {
     flex-direction: column;
     background-color:  #00284d;
     padding-bottom: 100px;
+    flex: 1;
 }
 
 .container-1 {
@@ -47,6 +50,8 @@ body {
     height: auto;
     border-radius: 10px;
     background-color: white;
+    flex-wrap: wrap;
+    min-width: 0
 }
 
 .link, .subtext {
@@ -66,12 +71,14 @@ body {
     margin: 0 180px 0 180px;
     gap: 64px;
     justify-content: space-between;
+    flex: 1;
 }
 
 .container-3
 {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .mid-section-1 {
@@ -80,6 +87,7 @@ body {
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    flex: 1;
 }
 
 .mid-title {
@@ -91,6 +99,8 @@ body {
 .gif-group {
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
+    flex: 1;
 }
 
 .gif {
@@ -118,6 +128,7 @@ figcaption {
     display: flex;
     flex-direction: column;
     padding: 110px 300px 80px 300px;
+    flex: 1;
 }
 
 .quote {
@@ -140,6 +151,7 @@ figcaption {
     margin: 100px 200px;
     padding: 50px;
     border-radius: 10px;
+    flex: 1;
 }
 
 .banner-text {
@@ -158,11 +170,7 @@ figcaption {
     font-size: 24px;
 }
 
-.please {
-    font-size: 10px;
-    align-self: flex-end;
-    padding-left: 10px;
-}
+
 
 .banner-button {
     width: 110px;
