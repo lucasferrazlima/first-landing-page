@@ -112,3 +112,25 @@ figcaption {
     color: #68696b;
     font-size: 18px;
 }
+
+.mid-section-2 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 110px 300px 80px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #68696b;
+    font-style: italic;
+    font-weight: light;
+}
+
+.author {
+    color: #00284d;
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
