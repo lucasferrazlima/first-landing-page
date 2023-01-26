@@ -73,3 +73,42 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.mid-section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mid-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.gif-group {
+    display: flex;
+    gap: 40px;
+}
+
+.gif {
+    width: 165px;
+    height: auto;
+}
+
+figure { 
+    display: table;
+}
+
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 0;
+    color: #68696b;
+    font-size: 18px;
+}
