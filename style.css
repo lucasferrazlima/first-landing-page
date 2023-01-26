@@ -179,3 +179,17 @@ figcaption {
     justify-self: center;
     align-self: center;
 }
+
+.footer {
+    background-color: #00284d;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: #ffa34e;
+    text-decoration: none;
+    font-weight: bolder;
+}
